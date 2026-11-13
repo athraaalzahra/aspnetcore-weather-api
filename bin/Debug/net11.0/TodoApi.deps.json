@@ -1,0 +1,116 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v11.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v11.0": {
+      "TodoApi/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "11.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "11.0.0"
+        },
+        "runtime": {
+          "TodoApi.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/11.0.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "3.11.0"
+        },
+        "runtime": {
+          "lib/net11.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.AspNetCore.OpenApi.dll"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/11.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "11.0.0"
+        },
+        "runtime": {
+          "lib/net11.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.EntityFrameworkCore.dll"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/11.0.0": {
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.EntityFrameworkCore.Abstractions.dll"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/11.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "11.0.0"
+        },
+        "runtime": {
+          "lib/net11.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.EntityFrameworkCore.InMemory.dll"
+          }
+        }
+      },
+      "Microsoft.OpenApi/3.11.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "3.11.0.0",
+            "fileVersion": "3.11.0.0",
+            "localPath": "Microsoft.OpenApi.dll"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TodoApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.OpenApi/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B5nHzRjpd5BhKN1ijqc2X4QVuQCCbQAWL/q3wpJgUBZou60IT0wgi1eiU3fF/DAj21RgBHXYAVNCV/AJ9y1GKw==",
+      "path": "microsoft.aspnetcore.openapi/11.0.0",
+      "hashPath": "microsoft.aspnetcore.openapi.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1zGKYhZMHG9gIfC89cC2QKM6DpNotDglm+UzYEV9dAWyLwJI8kLx+yfjAQVpC83iUzvr9y+1HJ0HZ8cOaosBXA==",
+      "path": "microsoft.entityframeworkcore/11.0.0",
+      "hashPath": "microsoft.entityframeworkcore.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iL0D3Dohk6bNYIHSM3VhvDXrJ+WXs7yMBVv+4L1ozxbsDmohG0T3ogd0mLgWBofu49BHGOgfFKgSGLsOirsjoQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/11.0.0",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5S6FD3sP3sJuiUy4iBUvhwEv5xdpj5If/kh/kns/1hIbtUeDQZFB3McZaRU+YToVwoFPy2k7pcU4Bg5+8QEO9Q==",
+      "path": "microsoft.entityframeworkcore.inmemory/11.0.0",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kvQz+mL/fnDw2VaE8zMyQhbMv7FmOYUydIhCVNKxQdrLu9XiMT/07DHwJ5YkRO2uzcxTFvMAKFKKywxoyLKHcA==",
+      "path": "microsoft.openapi/3.11.0",
+      "hashPath": "microsoft.openapi.3.11.0.nupkg.sha512"
+    }
+  }
+}
